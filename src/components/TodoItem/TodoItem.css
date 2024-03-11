@@ -1,0 +1,22 @@
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.todoText {
+    flex: 1;
+    text-decoration: none;
+}
+
+.removeButton {
+    background-color: #474646;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
