@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Provider } from 'react-redux';
-import TodoList from '../TodoList';
+import TodoList from '../TodoList/TodoList';
 import TodoForm from '../../features/todos/TodoForm';
 import store from '../../store';
 import './App.css'; // Импортируем файл стилей
